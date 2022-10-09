@@ -23,8 +23,4 @@ Cuando la instalación haya sido exitosa, se procede deben habilitar varios mód
 
     $ sudo a2enmod vhost_alias rewrite ssl && sudo systemctl restart apache2
 
-El **ServerName** de Apache en la máquina virtual, se configura de esta manera:
 
-    $ echo "ServerName webserver" | sudo tee -a /etc/apache2/apache2.conf
-
-Se puede comprobar desde el navegador 
