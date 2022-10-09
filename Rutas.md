@@ -13,7 +13,7 @@ El comando para editar el archivo con **nano** es el siguiente:
 
     $ sudo nano /etc/hosts
 
-Dentro de agregan los dominios después de la **IP**, por ejemplo
+Dentro del archivo se agregan los dominios después de la **IP**, por ejemplo:
 
 	192.168.58.10 webserver
 	192.168.58.10 mibanco.com
