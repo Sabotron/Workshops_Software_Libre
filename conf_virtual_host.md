@@ -1,6 +1,6 @@
 # Creación de directorios para páginas Web y archivos de configuración.
 
-Se debe crear un árbol de directorios en la máquina física para separar los archivos necesarios de distintas páginas web, ubicando la terminal en la carpeta de **vagrant** donde se encuentra el _Vagrantfile_. Los directorios corresponden a las páginas web de _lfts.isw811.xyz_ y _miblog.com_, se crearán con el comando **mkdir** con la intrucción **-p** para crear las subcarpetas inexistentes de una vez:
+Se debe crear un árbol de directorios en la máquina física para separar los archivos necesarios de distintas páginas web, ubicando la terminal en la carpeta de **vagrant** donde se encuentra el _Vagrantfile_. Los directorios corresponden a las páginas web de _lfts.isw811.xyz_ y _miblog.com_, se crearán con el comando **mkdir** con la instrucción **-p** para crear las subcarpetas inexistentes de una vez:
 
     $ sudo mkdir -p sites/lfts.isw811.xyz/public && sudo mkdir -p sites/miblog.com
 
@@ -22,7 +22,7 @@ Desde la máquina física se crean las plantillas en la carpeta sincronizada de 
 
 Una vez creados, se abre el editor de preferencia (en este caso **nano**) y se pega la siguiente información: 
 
-***Para el archivo _lfts.isw811.xyz_ *** 
+***Para el archivo _lfts.isw811.xyz.conf_ *** 
 
     <VirtualHost *:80>
     ServerAdmin webmaster@lfts.isw811.xyz
@@ -47,7 +47,7 @@ Una vez creados, se abre el editor de preferencia (en este caso **nano**) y se p
 ***Luego para el archivo _miblog.com.conf_ *** 
 
     <VirtualHost *:80>
-    ServerAdmin webmaster@lfts.isw811.xyz
+    ServerAdmin webmaster@miblog.com.conf
     ServerName miblog.com
 
     # Indexes + Directory Root.
