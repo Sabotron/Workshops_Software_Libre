@@ -1,4 +1,4 @@
-#Instalación de Composer
+# Instalación de Composer
 
 Verificar si existe PHP instalado en el equipo, de lo contrario se puede instalar con el siguiente comando:
 
